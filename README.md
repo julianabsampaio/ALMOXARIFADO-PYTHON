@@ -1,24 +1,30 @@
-# Sistema de Controle de Almoxarifado - Python
+# 🗃️ Sistema de Controle de Estoque - Almoxarifado (Python)
 
-Este é um sistema simples de controle de estoque para almoxarifado, desenvolvido em Python puro, utilizando apenas bibliotecas nativas.
-
----
-
-## 📌 Funcionalidades
-
-- Registro de entrada de produtos
-- Registro de saída de produtos
-- Consulta de estoque atual
-- Relatório de movimentações com data, hora e cidade
-- Armazenamento dos dados em um arquivo `.json`
+Este é um sistema simples de controle de estoque (almoxarifado) desenvolvido em Python.  
+Permite registrar entradas e saídas de produtos, além de salvar os dados em um arquivo JSON.
 
 ---
 
-## 🚀 Como executar
+## 📋 Funcionalidades
 
-1. **Pré-requisitos:**  
-Ter o Python 3.x instalado na sua máquina.
+- Registrar entrada de produtos
+- Registrar saída de produtos
+- Consultar o estoque atual
+- Salvar movimentações com data, hora e cidade
+- Armazenamento em formato JSON
 
-2. **Clonar o projeto:**
+---
+
+## 🚀 Como executar o projeto
+
+### Pré-requisitos:
+
+- Python 3 instalado
+- VS Code (opcional, mas recomendado)
+
+### Passo a passo:
+
+1. Clone o repositório:
+
 ```bash
 git clone https://github.com/julianabsampaio/ALMOXARIFADO-PYTHON.git
