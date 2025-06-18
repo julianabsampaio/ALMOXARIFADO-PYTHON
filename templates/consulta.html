@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta de Estoque</title>
+</head>
+<body>
+    <h1>Consulta de Estoque</h1>
+    {% if estoque %}
+        <ul>
+        {% for produto, info in estoque.items() %}
+            <li>
+                <strong>{{ produto }}</strong> - Quantidade: {{ info['quantidade'] }}
+                <ul>
+                    {% for mov in info['movimentacoes'] %}
+                        <li>{{ mov['tipo'] }} | Quantidade: {{ mov['quantidade'] }} | Cidade: {{ mov['cidade'] }}</li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>O estoque está vazio.</p>
+    {% endif %}
+    <a href="/">Voltar ao Início</a>
+</body>
+</html>
