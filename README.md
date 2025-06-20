@@ -11,7 +11,6 @@ Permite registrar entradas e saídas de produtos, além de salvar os dados em um
 - Registrar saída de produtos
 - Consultar o estoque atual
 - Salvar movimentações com data, hora e cidade
-- Armazenamento em formato JSON
 
 ---
 
